@@ -338,7 +338,76 @@ p {
   text-align: center;
 }
 
-/* .advantages h3,
-.advantages p {
-  width: 192px;
-} */
+@media screen and (max-width: 1440px) {
+  body {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero__content {
+    margin-bottom: 3rem;
+  }
+
+  .video iframe {
+    width: 70%;
+  }
+
+  .awesome-app {
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+  }
+
+  .awesome {
+    width: 70%;
+    margin: auto;
+  }
+
+  .advantages-container {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials {
+    width: 100%;
+    height: auto;
+  }
+
+  .briefs {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+
+  .prices {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .price-contrainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
