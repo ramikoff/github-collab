@@ -32,3 +32,63 @@ p {
 .about {
   text-align: center;
 }
+.testimonials {
+  background-color: #d6d6d6;
+  padding: 40px 0;
+  text-align: center;
+}
+.briefs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.bitem {
+  width: 138px;
+  height: 110px;
+  background-color: #ffffff;
+  border-radius: 2%;
+}
+.video {
+  background-color: #ababab;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer {
+  background-color: #d6d6d6;
+  padding: 100px 0;
+  text-align: center;
+}
+.f-nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+.f-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1rem;
+  padding-top: 30px;
+}
+.fb {
+  background-color: #3b5998;
+  border-radius: 100%;
+  padding: 15px;
+}
+.ig {
+  background-color: #00acee;
+  border-radius: 100%;
+  padding: 15px;
+}
+.yt {
+  background-color: #c4302b;
+  border-radius: 100%;
+  padding: 15px;
+}
+.li {
+  background-color: #0e76a8;
+  border-radius: 100%;
+  padding: 15px;
+}
