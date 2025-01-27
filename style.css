@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 1rem;
@@ -81,6 +81,10 @@ p {
   width: 513px;
   background-color: #ededed;
   padding-right: 5rem;
+}
+
+.hero__content .hero__notice {
+  text-align: left;
 }
 
 .hero__subtitle {
@@ -275,3 +279,44 @@ p {
   height: 59px;
   background-color: #ebebeb;
 }
+
+.advantages {
+  background-color: #ededed;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.advantages-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 60%;
+  gap: 1%;
+  justify-items: center;
+}
+
+.advantages-item {
+  text-align: center;
+  width: 192px;
+}
+
+.advantages-item img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.advantages h2 {
+  margin-bottom: 8rem;
+}
+
+.advantages h3 {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 100;
+  text-align: center;
+}
+
+/* .advantages h3,
+.advantages p {
+  width: 192px;
+} */
