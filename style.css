@@ -152,14 +152,19 @@ p {
   margin: 0 3rem;
 }
 .testimonials {
-  background-color: #d6d6d6;
-  padding: 40px 0;
+  width: 1440px;
+  height: 296px;
+  background-color: #ededed;
   text-align: center;
+}
+.testimonials-paragraph {
+  padding: 60px 0 40px 0;
+  font-weight: bold;
 }
 .briefs {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 60px;
 }
 .bitem {
   width: 138px;
@@ -192,24 +197,87 @@ p {
   padding-top: 30px;
 }
 .fb {
+  width: 70px;
+  height: 70px;
   background-color: #3b5998;
   border-radius: 100%;
-  padding: 15px;
+  font-size: 40px;
+  padding-top: 15px;
 }
 .ig {
-  background-color: #00acee;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(to right, #883ab4, #fd1d1d, #fcb045);
   border-radius: 100%;
-  padding: 15px;
+  font-size: 40px;
+  padding-top: 15px;
 }
 .yt {
+  width: 70px;
+  height: 70px;
   background-color: #c4302b;
   border-radius: 100%;
-  padding: 15px;
+  font-size: 40px;
+  padding-top: 15px;
 }
 .li {
+  width: 70px;
+  height: 70px;
   background-color: #0e76a8;
   border-radius: 100%;
-  padding: 15px;
+  font-size: 40px;
+  padding-top: 15px;
+}
+.prices {
+  background-color: #c4c4c4;
+  width: 1440px;
+  height: 734px;
+  padding-top: 20px;
+}
+.price-h2 {
+  font-size: 2.5rem;
+}
+.price-paragraph {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.price-contrainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.price-box {
+  width: 291px;
+  height: 396px;
+  background-color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 0px;
+}
+.price-left-box {
+  position: relative;
+  top: 320px;
+  left: 25px;
+  width: 238px;
+  height: 59px;
+  background-color: #ebebeb;
+}
+.price-center-box {
+  position: relative;
+  top: 320px;
+  left: 25px;
+  width: 238px;
+  height: 59px;
+  background-color: #ebebeb;
+}
+.price-right-box {
+  position: relative;
+  top: 320px;
+  left: 25px;
+  width: 238px;
+  height: 59px;
+  background-color: #ebebeb;
 }
 
 .advantages {
