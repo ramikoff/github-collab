@@ -7,6 +7,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
+  width: 1440px;
+  margin: auto;
 }
 
 h1 {
@@ -30,7 +32,92 @@ p {
   margin-bottom: 1rem;
   text-align: center;
 }
-.about {
+
+.header {
+  background-color: #8f8f8f;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  height: 142px;
+  align-items: center;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logo {
+  padding: 0.5rem;
+  height: 59px;
+  background-color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  display: flex;
+  height: 59px;
+  background-color: white;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+.button--big {
+  width: 200px;
+}
+
+.hero {
+  background-color: #c4c4c4;
+  height: 582px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero__content {
+  height: 458px;
+  width: 513px;
+  background-color: #ededed;
+  padding-right: 5rem;
+}
+
+.hero__subtitle {
+  width: 355px;
+  height: 50px;
+  background-color: white;
+  padding: 1rem;
+  margin: 1.5rem 0 3rem 1.5rem;
+}
+
+.hero__title {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+  font-size: 3rem;
+}
+
+.hero__notice {
+  margin-left: 1.5rem;
+  margin-bottom: 8rem;
+  font-size: 1.2rem;
+}
+
+.hero__button {
+  width: 195px;
+  height: 50px;
+  background-color: white;
+  padding: 1rem;
+  margin: 1.5rem 0 0 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.hero__demo {
+  width: 286px;
+  height: 458px;
+  border-radius: 47px;
+  background-color: #ededed;
+  padding-top: 16rem;
   text-align: center;
 }
 .features {
@@ -49,4 +136,14 @@ p {
 .awesome img {
   width: 100px;
   margin-bottom: 1rem;
+}
+.hero__demo .hero__button {
+  margin: 1rem auto;
+}
+
+.hero__demo h3 {
+  margin-bottom: 2rem;
+}
+.hero__demo .hero__notice {
+  margin: 0 3rem;
 }
