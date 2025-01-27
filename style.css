@@ -411,3 +411,25 @@ p {
     align-items: center;
   }
 }
+/* .advantages h3,
+.advantages p {
+  width: 192px;
+} */
+.line {
+  width: 175px;
+  height: 1px;
+  background-color: #d6d6d6;
+  transform: rotate(38.5deg);
+  position: relative;
+  top: 54.5px;
+  right: 18px;
+}
+.lines {
+  width: 175px;
+  height: 1px;
+  background-color: #d6d6d6;
+  transform: rotate(-38.5deg);
+  position: relative;
+  top: 53.5px;
+  right: 18px;
+}
