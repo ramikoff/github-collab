@@ -477,6 +477,10 @@ p {
     width: 100%;
   }
 
+  .features h2 + p {
+    margin-bottom: 4rem;
+  }
+
   .awesome-app {
     flex-direction: column;
     gap: 0;
@@ -486,6 +490,16 @@ p {
   .awesome {
     width: 70%;
     padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .awesome img {
+    margin-bottom: 1rem;
+  }
+
+  .advantages h2 {
+    margin-bottom: 4rem;
   }
 
   .advantages-container {
