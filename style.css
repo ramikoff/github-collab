@@ -48,12 +48,17 @@ p {
   font-size: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  gap: 13.42px;
 }
 
 .logo {
-  padding: 0.5rem;
+  width: 218px;
   height: 59px;
+  font-size: 24px;
+  text-align: center;
   background-color: white;
+  padding-top: 16px;
+  padding: 14.11px 11.77px 16.89px 11.77px;
 }
 
 .nav ul {
@@ -66,11 +71,35 @@ p {
   height: 59px;
   background-color: white;
   margin-right: 1rem;
-  padding: 0.5rem;
+}
+.nav--button-h {
+  width: 113.55px;
+  height: 58.4px;
+  padding: 15px 11.35px 14.89px 22px;
+  font-size: 24px;
+  text-align: center;
+}
+.nav--button-f {
+  width: 113.55px;
+  height: 58.4px;
+  padding: 15px 11.35px 14.89px 10.39px;
+  font-size: 24px;
+  text-align: center;
+}
+.nav--button-p {
+  width: 113.55px;
+  height: 58.4px;
+  padding: 15px 12.39px 14.89px 22px;
+  font-size: 24px;
+  text-align: center;
 }
 
 .button--big {
-  width: 200px;
+  width: 201.29px;
+  height: 58.4px;
+  padding: 15px 30.03px 14.89px 30.97px;
+  font-size: 24px;
+  text-align: center;
 }
 
 .hero {
