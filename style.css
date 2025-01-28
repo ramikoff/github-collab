@@ -103,8 +103,8 @@ p {
 }
 
 .hero {
-  padding-right: 9rem;
-  padding-left: 9rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
   background-color: #c4c4c4;
   height: 582px;
   display: flex;
@@ -129,25 +129,37 @@ p {
   background-color: white;
   padding: 1rem;
   margin: 1.5rem 0 3rem 1.5rem;
+  text-align: center;
+  font-size: 1.125rem;
 }
 
 .hero__title {
-  margin: 1.5rem 0 1.5rem 1.5rem;
+  margin: 1.5rem 0 1.5rem 2rem;
   font-size: 3rem;
 }
 
 .hero__notice {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   margin-bottom: 8rem;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
 }
 
-.hero__button {
+.hero__button_t {
   width: 195px;
-  height: 50px;
+  height: 51px;
   background-color: white;
-  padding: 1rem;
+  padding: 13px 31px 12px 31px;
   margin: 1.5rem 0 0 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.hero__button_c {
+  width: 195px;
+  height: 51px;
+  background-color: white;
+  padding: 13px 30px 12px 32px;
+  margin-left: 3rem;
+  margin-top: 1rem;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -159,6 +171,9 @@ p {
   background-color: #ededed;
   padding-top: 16rem;
   text-align: center;
+}
+.h3_hero_demo {
+  font-size: 1.875rem;
 }
 .features {
   background-color: #c4c4c4;
@@ -177,6 +192,9 @@ p {
   padding-top: 5rem;
   max-width: 200px;
   padding-bottom: 4rem;
+}
+.awesome__paragraph {
+  font-size: 1.125rem;
 }
 .awesome img {
   width: 100px;
@@ -199,8 +217,8 @@ p {
   text-align: center;
 }
 .testimonials-paragraph {
-  padding: 2rem;
-  padding-top: 2rem;
+  font-size: 1.2rem;
+  padding: 3rem 2rem 2.2rem 2rem;
 }
 .briefs {
   display: flex;
@@ -213,71 +231,22 @@ p {
   background-color: #ffffff;
   border-radius: 2%;
 }
+.h2__video {
+  font-style: bold;
+}
 .video {
+  width: 1440px;
+  height: 563px;
   background-color: #ababab;
   padding: 3rem;
   text-align: center;
 }
 .video iframe {
+  width: 715.62px;
+  height: 340px;
   padding-top: 2rem;
 }
-.footer {
-  background-color: #d6d6d6;
-  padding: 100px 0;
-  text-align: center;
-}
-.f-nav {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  font-size: 1.2rem;
-  padding-top: 15px;
-}
-.f-nav h4 {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: medium;
-  margin-bottom: 1rem;
-}
-.f-social {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  font-size: 1rem;
-  padding-top: 30px;
-}
-.fb {
-  width: 70px;
-  height: 70px;
-  background-color: #3b5998;
-  border-radius: 100%;
-  font-size: 40px;
-  padding-top: 15px;
-}
-.ig {
-  width: 70px;
-  height: 70px;
-  background: linear-gradient(to right, #883ab4, #fd1d1d, #fcb045);
-  border-radius: 100%;
-  font-size: 40px;
-  padding-top: 15px;
-}
-.yt {
-  width: 70px;
-  height: 70px;
-  background-color: #c4302b;
-  border-radius: 100%;
-  font-size: 40px;
-  padding-top: 15px;
-}
-.li {
-  width: 70px;
-  height: 70px;
-  background-color: #0e76a8;
-  border-radius: 100%;
-  font-size: 40px;
-  padding-top: 15px;
-}
+
 .prices {
   background-color: #c4c4c4;
   width: 1440px;
@@ -290,6 +259,7 @@ p {
 }
 .price-paragraph {
   padding-bottom: 45px;
+  font-size: 1.125rem;
 }
 
 .price-contrainer {
@@ -328,6 +298,66 @@ p {
   width: 238px;
   height: 59px;
   background-color: #ebebeb;
+}
+.footer {
+  background-color: #ededed;
+  padding: 100px 0;
+  text-align: center;
+}
+.h3_footer {
+  font-size: 2.1rem;
+  padding-top: 5.5rem;
+}
+.f-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+.f-nav h4 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.f-social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1rem;
+  padding-top: 30px;
+}
+.fb {
+  width: 70px;
+  height: 70px;
+  background-color: #3b5998;
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 14px 14px 14px 16px;
+}
+.ig {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(to right, #883ab4, #fd1d1d, #fcb045);
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 14px 14px 14px 16px;
+}
+.yt {
+  width: 70px;
+  height: 70px;
+  background-color: #c4302b;
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 14px 14px 14px 13px;
+}
+.li {
+  width: 70px;
+  height: 70px;
+  background-color: #0e76a8;
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 14px 14px 14px 16px;
 }
 
 .advantages {
