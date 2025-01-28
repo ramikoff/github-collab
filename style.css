@@ -510,6 +510,10 @@ p {
     align-items: center;
   }
 
+  .hero__button_c {
+    margin-left: 0;
+  }
+
   .hero__demo {
     display: flex;
     justify-content: center;
