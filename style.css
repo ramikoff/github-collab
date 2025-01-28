@@ -407,6 +407,10 @@ p {
     padding-right: 1rem;
   }
 
+  h3 {
+    margin-bottom: 0;
+  }
+
   .header {
     flex-direction: column;
     height: auto;
@@ -422,6 +426,14 @@ p {
   .nav ul {
     flex-direction: column;
     align-items: center;
+  }
+
+  .nav ul li {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 201.29px;
+    display: flex;
+    justify-content: center;
   }
 
   section {
@@ -469,7 +481,7 @@ p {
 
   .hero__content .hero__button {
     margin: 0;
-    width: 100%;
+    width: 70%;
   }
 
   .hero__button {
@@ -488,11 +500,15 @@ p {
   }
 
   .hero__demo .hero__button {
-    width: 100%;
+    width: 70%;
   }
 
   .video iframe {
     width: 100%;
+  }
+
+  .features h2 + p {
+    margin-bottom: 4rem;
   }
 
   .awesome-app {
@@ -504,6 +520,16 @@ p {
   .awesome {
     width: 70%;
     padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .awesome img {
+    margin-bottom: 1rem;
+  }
+
+  .advantages h2 {
+    margin-bottom: 4rem;
   }
 
   .advantages-container {
