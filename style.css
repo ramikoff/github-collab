@@ -394,6 +394,11 @@ p {
     align-items: center;
   }
 
+  .nav ul li {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
   section {
     padding-left: 2rem;
     padding-right: 2rem;
